@@ -2,7 +2,11 @@
   "name": "gitpushing",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "ng"  : "ng",
+    "start" : "ng serve",
+    "swagger-chrome" : "npx playwright test swagger.spec.ts --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
